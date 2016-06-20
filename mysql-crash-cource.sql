@@ -24,21 +24,16 @@ CREATE TABLE `event` (
 
 
 
--- Charpter 6
--- filter data, using WHERE
-SELECT `date`, `sentiment`, `volume`
-  FROM gold.event
-  WHERE `date` = "2014-06-11"
-  LIMIT 10;
+SELECT `idprice`, `date`, `open`, `high`, `low`, `close`
+  FROM gold.price
+  LIMIT 5;
 
--- using BETWEEN
-SELECT `date`, `sentiment`, `volume`
-  FROM gold.event
-  WHERE volume BETWEEN 10 AND 20
-  LIMIT 10;
+SELECT `idprice`, `date`, `open`, `high`, `low`, `close`
+  FROM gold.price
+  LIMIT 3, 5;
 
--- check NULL
-SELECT `date`
-  FROM gold.event
-  WHERE volume IS NULL;
+SELECT DISTINCT `scope_id`
+  FROM gold.event;
 
+SELECT DISTINCT `scope_id`, `event_type_id`
+  FROM gold.event;
