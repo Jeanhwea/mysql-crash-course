@@ -1,4 +1,4 @@
--- Charpter 8: 用通配符进行过滤
+-- Chapter 8: 用通配符进行过滤
 
 -- +----+-------------+-------+-------------+
 -- | id | choice_text | votes | question_id |

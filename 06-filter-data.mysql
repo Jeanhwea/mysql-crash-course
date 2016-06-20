@@ -1,4 +1,4 @@
--- Charpter 6: 过滤数据
+-- Chapter 6: 过滤数据
 
 -- filter data, using WHERE
 SELECT `date`, `sentiment`, `volume`

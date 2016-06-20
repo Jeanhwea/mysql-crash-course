@@ -1,4 +1,4 @@
--- Charpter 7: 数据过滤
+-- Chapter 7: 数据过滤
 
 -- AND operator
 SELECT `date`, `open`, `close`

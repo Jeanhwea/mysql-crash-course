@@ -1,4 +1,4 @@
--- Charpter 4: 检索数据
+-- Chapter 4: 检索数据
 
 -- select data with limit
 SELECT `idprice`, `date`, `open`, `high`, `low`, `close`

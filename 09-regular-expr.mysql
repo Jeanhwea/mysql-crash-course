@@ -1,4 +1,4 @@
--- Charpter 9: 使用MySQL正则表达式
+-- Chapter 9: 使用MySQL正则表达式
 
 -- +----+-------------+-------+-------------+
 -- | id | choice_text | votes | question_id |
