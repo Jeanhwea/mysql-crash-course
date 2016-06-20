@@ -1,4 +1,4 @@
--- Chapter 5: 排序检索数据
+-- 第5章 排序检索数据
 
 -- sort seleted data
 SELECT `date`, `open`, `close`

@@ -1,4 +1,4 @@
--- Chapter 3: 使用MySQL
+-- 第3章 使用MySQL
 
 -- change Database
 USE database_name;
