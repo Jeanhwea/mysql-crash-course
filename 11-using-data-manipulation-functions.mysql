@@ -43,7 +43,7 @@ SELECT vend_name, Upper(vend_name) AS vend_name_uppercase
 -- RTrim(str)               | trim right-handside of string
 -- Soundex(str)             | return SOUNDEX value of string
 
-SELECT * from orders;
+SELECT * FROM orders;
 -- +-----------+---------------------+---------+
 -- | order_num | order_date          | cust_id |
 -- +-----------+---------------------+---------+
