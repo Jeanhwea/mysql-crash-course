@@ -3,9 +3,9 @@
 DROP PROCEDURE productpricing;
 DELIMITER $$
 CREATE PROCEDURE productpricing(
-  OUT pl DECIMAL(8,2),
-  OUT ph DECIMAL(8,2),
-  OUT pa DECIMAL(8,2)
+  OUT pl decimal(8,2),
+  OUT ph decimal(8,2),
+  OUT pa decimal(8,2)
 )
 BEGIN
   SELECT Min(prod_price) INTO pl
@@ -23,13 +23,13 @@ SELECT @pricelow, @pricehigh, @priceavg;
 -- stored procedure
 DELIMITER $$
 CREATE PROCEDURE ordertotal(
-  IN onumber INT,
-  IN taxable BOOLEAN,
-  OUT ototal DECIMAL(8,2)
+  IN onumber int,
+  IN taxable boolean,
+  OUT ototal decimal(8,2)
 ) COMMENT 'Obtain order total, optionally adding tax'
 BEGIN
-  DECLARE total DECIMAL(8,2);
-  DECLARE taxrate INT DEFAULT 6;
+  DECLARE total decimal(8,2);
+  DECLARE taxrate int DEFAULT 6;
   SELECT Sum(item_price*quantity)
     FROM orderitems
     WHERE order_num = onumber
