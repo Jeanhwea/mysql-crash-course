@@ -31,3 +31,7 @@ MySQL Crash Cource
 * 第28章 [安全管理](script/28-managing-security.sql)
 * 第29章 [数据库维护](script/29-database-maintenance.sql)
 * 第30章 [改善性能](script/30-improving-performance.sql)
+
+数据库ER图
+===========================
+![](mysql_crash_course_ER_diagram.png)
