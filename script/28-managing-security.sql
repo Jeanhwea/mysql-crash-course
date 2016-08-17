@@ -16,3 +16,8 @@ SET PASSWORD FOR bforta = Password('new password');
 -- show privileges
 SHOW GRANTS FOR hujh;
 
+-- grant all privileges
+GRANT ALL PRIVILEGES ON database_name.*
+  TO 'username'@'localhost'
+  IDENTIFIED BY 'password';
+
